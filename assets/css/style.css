@@ -1,0 +1,63 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+:root{
+	--background: #0571CC;
+	--text: #eee;
+	--brad: .5rem;
+	--dark: #444;
+}
+
+html{
+	background: var(--text);
+	height: 100vh;
+	border: 2px solid red;
+}
+
+body{
+	height: 100%;
+	border: 2px solid green;
+}
+
+button{
+	border: 0;
+}
+
+#container{
+	height: 100%;
+}
+
+header{
+	background: var(--background);
+	color: var(--text);
+	padding: .5rem;
+}
+
+#chat{
+	border: 2px solid;
+	padding: 1rem;
+	height: 100%;
+	position: fixed;
+	width: 100%;
+}
+
+#user-actions{
+	border: 2px solid yellow;
+	margin: auto;
+	padding: .75rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+#user-actions *{
+	 display: block;
+}
+
+#user-actions input{
+	border: 0;
+	background: var(--dark);
+	padding: 1rem;
+}

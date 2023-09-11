@@ -11,9 +11,20 @@
 <body>
 	<section id="container">
 		<header>
-			
+			<div class="bot-info">
+				<h1>Chrome Bot</h1>
+				<p id="bot-name">{bot_name}</p>
+				<span id="bot-status">{bot_status}</span>
+			</div>
 		</header>
 		
+		<section id="chat">
+			<div id="chat_responses"></div>
+			<form id="user-actions">
+				<input type="text" id="user-command" placeholder="Enter your command...">
+				<button>Send</button>
+			</form>
+		</section>
 	</section>
 	<script src="./assets/js/main.js"></script>
 </body>
